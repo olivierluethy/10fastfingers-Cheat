@@ -1,7 +1,11 @@
-// -- First try, where id must be added separately inside the input field html --
+// -- ID is added automatically after running to the input field by searching for class where input field is inside, locate input field and add an ID to it --
+// Select the input field inside the element with class "interface"
+const inputField = document.querySelector('.interface input');
 
-// Get the input field element by its ID and assign it to a constant variable
-const inputField = document.getElementById("inputfield");
+// If the input field exists, assign the id "inputfield" to it
+if (inputField) {
+    inputField.id = "inputfield";
+}
 
 // Set an interval that executes the following function every 250 milliseconds
 setInterval(() => {
