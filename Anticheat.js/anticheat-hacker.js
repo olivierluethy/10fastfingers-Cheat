@@ -1,4 +1,5 @@
 // Looked up from: https://www.youtube.com/watch?v=k-Z25PRZY14
+// Approch using Tesseract from this: https://github.com/FarisHijazi/10FastFingers_BotAntiAntiCheat
 
 (async () => {
   // === OCR Schritt mit Tesseract.js ===
